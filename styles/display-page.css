@@ -1,0 +1,35 @@
+
+.main-container {
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+}
+.block {
+  display: inline-block;
+  border: 1px black solid;
+}
+.top {
+  width: 50%;
+  height: 200px;
+}
+.top.left {
+  background-color: green;
+}
+.top.right {
+  background-color: blue;
+}
+.bottom {
+  width: 33.33%;
+  height: 300px;
+}
+.bottom.left {
+  background-color: grey;
+}
+.bottom.middle {
+  background-color: black;
+}
+.bottom.right{
+  background-color: orange;
+}
